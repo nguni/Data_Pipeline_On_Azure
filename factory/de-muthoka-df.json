@@ -1,0 +1,9 @@
+{
+	"name": "de-muthoka-df",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6931f4de-02e5-4551-8712-44d3abedf272",
+		"tenantId": "9c82d3cd-f37a-4ec6-bcc8-42ed405c1185"
+	}
+}
