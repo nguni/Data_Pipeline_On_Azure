@@ -1,4 +1,5 @@
 # End-to-End Azure Data Engineering Pipeline Setup
+![image](https://github.com/user-attachments/assets/2fe18987-24e6-406d-bd2a-0fbc17c2c1fe)
 
 ## Overview
 This guide provides a step-by-step process for building an Azure Data Engineering Pipeline that ingests on-premises SQL Server data, processes it through Bronze, Silver, and Gold layers, and visualizes it in Power BI. The pipeline follows a Medallion Architecture and incorporates Azure Databricks, Azure Synapse Analytics, Azure Data Factory (ADF), Azure Active Directory (AAD), and Azure Key Vault for security and governance.
