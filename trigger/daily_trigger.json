@@ -14,19 +14,11 @@
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
-				"frequency": "Day",
-				"interval": 1,
+				"frequency": "Minute",
+				"interval": 2,
 				"startTime": "2025-02-25T14:02:00",
 				"endTime": "2025-02-26T14:02:00",
-				"timeZone": "E. Africa Standard Time",
-				"schedule": {
-					"minutes": [
-						15
-					],
-					"hours": [
-						17
-					]
-				}
+				"timeZone": "E. Africa Standard Time"
 			}
 		}
 	}
