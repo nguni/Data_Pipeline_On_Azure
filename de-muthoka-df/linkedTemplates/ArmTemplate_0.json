@@ -99,7 +99,7 @@
 					"location": {
 						"type": "AzureBlobFSLocation",
 						"fileName": {
-							"value": "@{concat(dataset().tablename, '.paquet')}",
+							"value": "@{concat(dataset().tablename, '.parquet')}",
 							"type": "Expression"
 						},
 						"folderPath": {
