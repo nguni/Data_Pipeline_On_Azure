@@ -23,6 +23,9 @@
 		"SqlServerOnPremLinkedService_properties_typeProperties_userName": {
 			"value": "john"
 		},
+		"AzureDatabricksLinkedServices_properties_typeProperties_existingClusterId": {
+			"value": "0225-111545-goyqquy0"
+		},
 		"containerUri": {
 			"value": ""
 		},

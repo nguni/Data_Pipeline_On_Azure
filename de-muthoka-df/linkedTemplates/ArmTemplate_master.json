@@ -31,6 +31,10 @@
 			"type": "string",
 			"defaultValue": "john"
 		},
+		"AzureDatabricksLinkedServices_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "0225-111545-goyqquy0"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -75,6 +79,9 @@
 					},
 					"SqlServerOnPremLinkedService_properties_typeProperties_userName": {
 						"value": "[parameters('SqlServerOnPremLinkedService_properties_typeProperties_userName')]"
+					},
+					"AzureDatabricksLinkedServices_properties_typeProperties_existingClusterId": {
+						"value": "[parameters('AzureDatabricksLinkedServices_properties_typeProperties_existingClusterId')]"
 					}
 				}
 			},
