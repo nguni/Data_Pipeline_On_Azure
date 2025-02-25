@@ -1,0 +1,32 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "copy_all_tables",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 15,
+				"startTime": "2025-02-25T14:21:00",
+				"timeZone": "E. Africa Standard Time",
+				"schedule": {
+					"minutes": [
+						23
+					],
+					"hours": [
+						5
+					]
+				}
+			}
+		}
+	}
+}
